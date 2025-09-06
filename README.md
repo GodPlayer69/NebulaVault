@@ -1,6 +1,6 @@
 # NebulaVault
 
-![NebulaVault Banner](assets/logo.png)
+![NebulaVault Banner](https://via.placeholder.com/800x200.png?text=NebulaVault)
 
 **NebulaVault** modern ve güvenli bir dijital vault uygulamasıdır. Kullanıcılar verilerini saklayabilir, yönetebilir ve geliştirici/adminler özel erişim ile kullanıcı verilerini görebilir. Proje, HTML/CSS/JS frontend ve Node.js + SQLite backend ile geliştirilmiştir. Arka planda animasyonlu bir nebula efekti ile modern bir tasarım sunar.
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NebulaVault</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="nebulaCanvas"></canvas>
+
+<div class="container">
+    <h1>NebulaVault</h1>
+    <p>Your secure digital vault</p>
+
+    <div class="buttons">
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+        <button id="usersBtn">Users (DEVELOPERS ONLY)</button>
+    </div>
+
+    <!-- Login Form -->
+    <div class="form-popup" id="loginForm">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="loginSubmit">Login</button>
+        <button class="closeBtn" onclick="closeForm('loginForm')">Close</button>
+        <p id="loginMessage"></p>
+    </div>
+
+    <!-- Register Form -->
+    <div class="form-popup" id="registerForm">
+        <h2>Register</h2>
+        <input type="text" id="regUsername" placeholder="Username" required>
+        <input type="password" id="regPassword" placeholder="Password" required>
+        <button id="registerSubmit">Register</button>
+        <button class="closeBtn" onclick="closeForm('registerForm')">Close</button>
+        <p id="regMessage"></p>
+    </div>
+
+    <!-- Users List -->
+    <div class="form-popup" id="usersList">
+        <h2>Registered Users</h2>
+        <ul id="userList"></ul>
+        <button class="closeBtn" onclick="closeForm('usersList')">Close</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/nebula.js"></script>
+</body>
+</html>
